@@ -3,24 +3,34 @@ body{
 	padding: 0;
 	background: #e74c3c;
 	font-family: "Montserrat";
-
 }
 .color{
-	margin-top: 300px;
 	text-align: center;
+    	margin: 200px 25%;
+    	padding: 30px;
+    	background: linear-gradient(90deg,rgba(255,255,255,0)0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%);
+    	box-shadow: 0 0 25px rgba(0, 0, 0, 1), inset 0 0 2px rgba(255, 255, 255, 1);
+    	opacity: .7;
+    	border-radius: 5px;
 }
 #hex{
 	display: block;
-	color:white;
-	font-size: 40px;
-	text-transform: uppercase;
+	color:black;
 	margin: 24px;
+	font-size: 40px;
+	text-transform: lowercase;
+	background: linear-gradient(90deg,rgba(255,255,255,0)0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%);
+    	box-shadow: 0 0 25px rgba(0, 0, 0, 1), inset 0 0 2px rgba(255, 255, 255, 1);
+    	opacity: .7;
+    	border-radius: 5px;
+    	overflow: hidden;
 }
 .color button{
 	background: none;
 	outline: none;
 	color: white;
 	border:3px solid white;
+	border-radius: 2px;
 	cursor: pointer;
 	font-size: 24px;
 	transition: .5s;
