@@ -1,4 +1,4 @@
- var pre = color;
+ var color;
 function changeNewColor(){
 	var symbols,color;
 	symbols = "0123456789ABCDEF";
